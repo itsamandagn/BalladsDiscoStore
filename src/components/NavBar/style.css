@@ -1,0 +1,51 @@
+.alert {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  color: black;
+  font-size: 20px;
+  padding: 15px 0;
+  justify-content: center;
+  font-weight: bolder;
+  z-index: 1000;
+}
+
+h1 {
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+}
+
+.menu {
+  display: inline-block;
+  gap: 20px;
+  padding: 10px;
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+
+
+.menu a:hover {
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+}
