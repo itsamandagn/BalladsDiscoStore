@@ -5,7 +5,8 @@
   left: 0;
   width: 100%;
   background-color: red;
-  color: black;
+  color: white;
+  border-color: black;
   font-size: 20px;
   padding: 15px 0;
   justify-content: center;
@@ -15,6 +16,7 @@
 
 h1 {
   display: flex;
+  font-family: "Roboto", serif;
   margin-top: 50px;
   padding: 20px;
   justify-content: center;
@@ -25,8 +27,8 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 40px;
-  background-color: white;
+  padding: 20px;
+  background-color: black;
 }
 
 .menu {
@@ -38,14 +40,27 @@ h1 {
 .menu a {
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 10px;
 
 }
 
 
 .menu a:hover {
-  background-color: black;
+  background-color:white;
   border-radius: 100px;
-  color: white;
+  color: black;
 }
+
+/* .submenu {
+  display: none; 
+  text-decoration: none;
+  justify-content: center;
+  background-color: black;
+  color: white;
+} */
+
+/*.manu li .submenu:hover {
+  display: block;
+}/*
+

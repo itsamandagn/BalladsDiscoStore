@@ -1,8 +1,11 @@
+import "./style.css"
 function header() {
   return (
-    <nav className="navbar">
-      
-    </nav>
+    <header>
+                <div className="alert alert-primary" role="alert">
+ Black Friday! Desconto progressivo!  5 discos = 7% OFF /  10 discos = 12% OFF
+             </div>
+    </header>
   );
 }
 
