@@ -1,3 +1,6 @@
+* {
+background-color: black;
+}
 .alert {
   display: flex;
   position: fixed;
@@ -17,6 +20,8 @@
 h1 {
   display: flex;
   font-family: "Roboto", serif;
+  background-color: black;
+  color: white;
   margin-top: 50px;
   padding: 20px;
   justify-content: center;
@@ -58,9 +63,9 @@ h1 {
   justify-content: center;
   background-color: black;
   color: white;
-} */
+} 
 
-/*.manu li .submenu:hover {
+.manu li .submenu:hover {
   display: block;
-}/*
+} */
 
