@@ -1,12 +1,14 @@
 import './App.css';
-import Header from './components/NavBar/header';
 import Navbar from './components/NavBar';
+import Header from './components/NavBar/header';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Header/>
+      <Navbar/>
+      <ItemListContainer greeting = "Ballads Disco é uma empresa especializada na venda de discos online"/>
     </div>
   );
 }

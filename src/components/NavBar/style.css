@@ -1,62 +1,38 @@
-* {
-background-color: black;
-}
-.alert {
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  border-color: black;
-  font-size: 20px;
-  padding: 15px 0;
-  justify-content: center;
-  font-weight: bolder;
-  z-index: 1000;
-}
-
-h1 {
-  display: flex;
-  font-family: "Roboto", serif;
-  background-color: black;
-  color: white;
-  margin-top: 50px;
-  padding: 20px;
-  justify-content: center;
-  font-size: 30px;
-}
-
 .navbar {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
+  justify-content:space-between;
+  padding: 10px;
   background-color: black;
 }
 
 .menu {
-  display: inline-block;
+  display: inline-flex;
   gap: 20px;
-  padding: 10px;
+  list-style: none;
 }
 
 .menu a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-top: 5px;
 }
 
-
 .menu a:hover {
-  background-color:white;
+  background-color: white;
   border-radius: 100px;
   color: black;
 }
 
+.carrinho {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 30px;
+
+}
 /* .submenu {
   display: none; 
   text-decoration: none;
@@ -68,4 +44,3 @@ h1 {
 .manu li .submenu:hover {
   display: block;
 } */
-

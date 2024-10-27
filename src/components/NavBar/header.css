@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+  justify-content: center;
+  font-weight: bolder;
+  z-index: 1000;
+}
+
+h1 {
+  display: flex;
+  color: black;
+  font-family: "Bona Nova SC", serif;
+  background-color: white;
+  align-items: center;
+  padding: 30px;
+  margin-top: 45px;
+  font-size: 30px;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 5px;
+  gap: 5px;
+
+}
+
+.form-control {
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-inline :focus-within {
+    border-color:#e6b219;
+    box-shadow: none;
+  }
+
+.search-btn {
+  border-radius: 5px;
+  background-color: #e6b219;
+  border-color: black;
+  border-style: solid;
+  
+
+}
