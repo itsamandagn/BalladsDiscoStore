@@ -1,0 +1,27 @@
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #d3d3d3;
+    color: #ffff;
+    width: 300px;
+    text-align: center;
+}
+
+.produto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.produto h2 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.produto p {
+    font-size: 14px;
+    color: #ffff;
+}

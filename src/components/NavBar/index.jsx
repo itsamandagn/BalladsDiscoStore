@@ -15,9 +15,7 @@ function Navbar() {
                         <li><a href="#">Rock</a></li>
                         <li><a href="#">Pop</a></li>
                         <li><a href="#">MPB</a></li>
-                        <li><a href="#">Jazz</a></li>
-                        <li><a href="#">Blues</a></li>
-                        <li><a href="#">Clássicos</a></li>
+                        <li><a href="#">R&B</a></li>
                 </ul> */}
           <li>
             <a href="https://github.com/itsamandagn">Contato</a>

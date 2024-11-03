@@ -15,14 +15,14 @@
   list-style: none;
   text-decoration: none;
   justify-content: center;
-  color: white;
-  background-color: black;
+  color: #ffff;
+  background-color: #000000 ;
   padding: 10px;
   margin-top: 5px;
 }
 
 .menu a:hover {
-  background-color: white;
+  background-color: #ffff;
   border-radius: 100px;
   color: black;
 }
@@ -37,8 +37,8 @@
   display: none; 
   text-decoration: none;
   justify-content: center;
-  background-color: black;
-  color: white;
+  background-color: #000000 ;
+  color: #ffff;
 } 
 
 .manu li .submenu:hover {
