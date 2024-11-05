@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import "./style.css";
 import Produto from "../Produto";
 
-// Componente Container
 function ListaProdutos({ children}) {
     const produtos = [
         { id: "TheKillers",
@@ -84,3 +83,4 @@ function ListaProdutos({ children}) {
 }
 
 export default ListaProdutos;
+
