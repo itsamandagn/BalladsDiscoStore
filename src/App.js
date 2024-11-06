@@ -26,8 +26,7 @@ function App() {
         de
         discos"
       />
-      <ListaProdutos />
-      <ItemCount/>
+      <ItemCount onAdd={(item) => console.log(item) }/>
     </div>
   );
 }

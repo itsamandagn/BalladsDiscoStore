@@ -25,7 +25,7 @@ function ItemCount({ initial = 1, stock = 5, onAdd }) {
         <span>{count}</span>
         <button onClick={adicionarProduto}>+</button>
       </div>
-      { <button onClick = {adicionarAoCarrinho}>Adicionar ao carrinho</button> }
+      { <button onClick={adicionarAoCarrinho}>Adicionar ao carrinho</button> }
     </div>
   );
 }
